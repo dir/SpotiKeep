@@ -29,7 +29,7 @@ def artist():
 		artist = artist.strip()
 		return artist
 	except:
-		return "There is noting playing at this moment"
+		return "There is nothing playing at this moment"
 	
 def song():
 	try:
@@ -38,7 +38,7 @@ def song():
 		song = song.strip()
 		return song
 	except:
-		return "There is noting playing at this moment"
+		return "There is nothing playing at this moment"
 	
 ###SpotifyBlock###
 def createfolder(folder_path="C:\SpotiBlock"):
@@ -90,5 +90,3 @@ def play():
 	
 def mute():
 	win32api.keybd_event(Media_Mute, hwcode(Media_Mute))
-	
-	
