@@ -5,6 +5,9 @@ import urllib2
 import urllib
 import os
 
+# Written by Luke Davis (@R8T3D)
+# Under the MIT license
+
 def downloadSong(song_string):
 	print 'Currently Playing: ' + song_string
 	print 'Downloading now...'

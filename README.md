@@ -1,5 +1,6 @@
 # SpotiKeep
 Lightweight Python script written by Luke Davis (@R8T3D) that downloads the current playing Spotify song. 
+Under the MIT license.
 
 ### Requirements
   - An internet connection
